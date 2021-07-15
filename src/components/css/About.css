@@ -1,0 +1,36 @@
+.about-us{
+    position: relative;
+    width: 100%;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.about-col{
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+.about-col img{
+    width: 100%;
+}
+.about-col h1{
+    padding-top: 0;
+}
+.about-col p{
+    padding: 15px 0 25px;
+    font-size: 1rem;
+}
+.red-btn{
+    border: 1px solid #0d83dd;
+    background: transparent;
+    color: #0d83dd;
+    font-weight: 700;
+}
+.red-btn:hover{
+    color: #fff;
+}

@@ -1,0 +1,62 @@
+.payment{
+    text-align: center;
+}
+
+.header {
+    margin: 50px;
+}
+.header-icon{
+    width: 40px;
+    height: 40px;
+    color: #2591FF;
+}
+.title h2{
+    border: 1px solid #2591FF;
+    background-color: #308AE6;
+    border-radius:5px ;
+    color: #fff;
+    margin: 10px auto;
+    padding: 5px;
+    width: 300px;
+}
+
+.form{
+    position: relative;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.form .input{
+    position: relative;
+    left: 0;
+    width: 100%;
+    display: inline-grid;
+    justify-content: center;
+}
+.form .input label{
+    margin: 10px auto;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+    font-weight: 600;
+
+}
+.form .input input{
+    border: 1px solid #2591FF;
+    border-radius: 5px;
+    height: 5vh;
+    padding: 10px;
+}
+.form .input button{
+    margin: 30px auto;
+    width: 200px;
+    border: 1px solid #2591FF;
+    background-color: #308AE6;
+    border-radius:5px ;
+    padding: 5px auto;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    height: 40px;
+}
